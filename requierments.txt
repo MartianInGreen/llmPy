@@ -1,0 +1,7 @@
+chromadb
+sqlite3
+fastapi
+certifi
+pydantic
+uvicorn
+dotenv

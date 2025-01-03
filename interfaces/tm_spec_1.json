@@ -1,0 +1,20 @@
+{
+    "name": "pythonInterpreterListFiles",
+    "parameters": {
+      "type": "object",
+      "required": [
+        "uuid"
+      ],
+      "properties": {
+        "uuid": {
+          "type": "string",
+          "description": "The UUID of the session."
+        },
+        "dirname": {
+          "type": "string",
+          "description": "The directory to list. (Optional, if empty, root-workdir directory is used. All paths relatvie to workdir.)"
+        }
+      }
+    },
+    "description": "List files in a directory."
+  }

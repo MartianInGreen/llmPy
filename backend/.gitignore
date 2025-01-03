@@ -1,0 +1,12 @@
+bin/
+include/
+lib/
+lib64
+lib64/
+pyvenv.cfg
+storage/
+share/*
+share/
+share
+share/man/man1/ipython.1
+api/share/man/man1/

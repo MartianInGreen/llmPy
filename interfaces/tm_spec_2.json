@@ -1,0 +1,21 @@
+{
+    "name": "pythonInterpreter",
+    "parameters": {
+      "type": "object",
+      "required": [
+        "uuid",
+        "code"
+      ],
+      "properties": {
+        "code": {
+          "type": "string",
+          "description": "The python code to run."
+        },
+        "uuid": {
+          "type": "string",
+          "description": "The UUID of the session."
+        }
+      }
+    },
+    "description": "Use a python interpreter with full web acess. No 'display', save graphs (and similar) to files."
+  }

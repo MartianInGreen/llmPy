@@ -1,0 +1,16 @@
+{
+    "name": "createSession",
+    "parameters": {
+      "type": "object",
+      "required": [
+        "create"
+      ],
+      "properties": {
+        "create": {
+          "type": "string",
+          "description": "Just include the text 'true' here"
+        }
+      }
+    },
+    "description": "Create a new session. Only use this if the user requests a new session or does not provide one at the start."
+  }
